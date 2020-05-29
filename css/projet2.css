@@ -1,0 +1,370 @@
+.gauche{
+    float:left;
+}
+
+.droite{
+    float:right;
+}
+
+.clear{
+    clear:both;
+}
+
+.aside{
+    width:33.3%;
+    height:100%;
+}
+
+.contenu{
+    width:66.7%;
+    height:100%;
+}
+
+.loisirs{
+    text-align:center;
+}
+
+header hr{
+    float:left;
+    width:9%;
+    background-color:#feca07;
+    height:1px;
+    margin-top:0%;  
+}
+
+.photoPerso{
+    text-align:center;
+}
+
+.photoPerso img{
+    width:50%;
+    height:50%;
+    border-radius: 50%;
+    border: 3px solid #daa520;
+    margin-top: 10%;
+    /*margin-left: 25%;
+    margin-right:25%;*/
+}
+
+.bg-color1{
+    background-color: #feca07;
+}
+
+.bg-color2{
+    background-color:#424242;
+}
+
+.colorYellow{
+    color:#feca07;
+}
+
+.color2{
+    color:#424242;
+}
+
+.size40{
+    font-size:40px;
+}
+.size30{
+    font-size:30px;
+}
+
+.size20{
+    font-size:20px;
+}
+.size15{
+    font-size:15px;
+}
+
+.paddingLeft{
+    padding-left:5%;
+}
+
+.paddingLeft1{
+    padding-left:23px;
+}
+
+.paddingRight{
+    padding-right: 5%;
+}
+
+.textAlign{
+    text-align:justify;
+}
+
+.textTransform{
+    text-transform: uppercase;
+}
+
+.loisirs i{
+    font-size:150%;
+    padding:9%;
+}
+.contact h2,.ma_description h2,.loisirs h2{
+    text-align:center;
+    margin-top:10%;
+    padding:2%;
+}
+
+.col1{
+    width:50%;
+}
+
+.col2{
+    width:50%;
+    
+}
+
+.contenu{
+    padding-left:5%;
+}
+
+.contenu i{
+    margin-right: 2%;
+}
+
+.paddingRight1{
+    padding-right: 3%;
+}
+
+.marginTop{
+    margin-top: 0%;
+}
+
+.marginBottom{
+    margin-bottom: 5%;
+}
+
+.height{
+    height:1px;
+}
+
+.width1{
+    width:25%;
+}
+
+.bg-color3{
+    background-color: #feca07;
+}
+
+.color3{
+    color:#feca07;
+}
+
+header{
+    margin-top: 10%;
+}
+
+.formation{
+    margin-top: 150px;
+}
+
+.experiencePro{
+    margin-top: 250px;
+}
+
+.recommandation{
+    margin-top:350px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+@media(min-width:1040px){
+    .nomProfil{
+        display:none;
+    }
+}
+
+@media(min-width:949px) and (max-width: 1039px){
+    header,.hr1{
+        display:none;
+    }
+
+    .aside{
+        width:40%;
+    }
+
+    .nomProfil h2{
+        font-size: 25px;
+    }
+
+    .contenu{
+        width:60%;
+    }
+
+    .paddingLeft1{
+        padding-left:20px;
+    }
+}
+
+@media (min-width:860px) and (max-width:948px){
+    header,.hr1{
+        display:none;
+    }
+
+    .aside{
+        width:35%;
+    }
+
+    .contenu{
+        width:65%;
+    }
+
+    .formation{
+        margin-top:30px;
+    }
+
+    .experiencePro, .formation,.recommandation{
+        font-size:25px;
+    }
+
+    .col1,.col2{
+        font-size:15px;
+    }
+
+    .nomProfil h2{
+        font-size:20px;
+    }
+
+    .nomProfil h3{
+        font-size:15px;
+    }
+
+    .contact p,.ma_description p{
+        font-size:15px;
+    }
+}
+
+
+@media (min-width: 659px) and (max-width: 859px){
+
+    body,.aside{
+        background-color:#B2EBF2;
+    }
+
+    .aside,.contenu{
+        width:100%;
+    }
+
+   
+
+    header,.hr1{
+        display:none;
+    }
+
+    .ma_description{
+        display:none;
+    }
+
+    .loisirs{
+        display:none;
+    }
+
+    .experiencePro, .formation,.recommandation{
+        font-size:25px;
+    }
+
+    .col1{
+        width:40%;
+    }
+
+    .col2{
+        width:60%;
+    }
+
+    .paddingLeft1{
+        padding-left:23px;
+    }
+
+    .formation{
+        margin-top:20px;
+    }
+
+    .experiencePro{
+        padding-top:40px;
+    }
+
+    .recommandation{
+        padding-top:90px;
+    }
+
+}
+
+@media (max-width: 658px){
+
+    body,.aside{
+        background-color:#E0F7FA;
+    }
+
+    .aside,.contenu{
+        width:100%;
+    }
+
+   
+
+    header,.hr1{
+        display:none;
+    }
+
+    .ma_description{
+        display:none;
+    }
+
+    .loisirs{
+        display:none;
+    }
+
+    .experiencePro, .formation,.recommandation{
+        font-size:25px;
+        color:#3E2723;
+    }
+
+    .col1{
+        width:100%;
+        margin-bottom: 5px;
+        color:#3E2723;
+
+    }
+
+    .col2{
+        width:100%;
+        color:#3E2723;
+    }
+
+    .paddingLeft1{
+        padding-left:23px;
+    }
+
+    .formation{
+        margin-top:20px;
+    }
+
+    .experiencePro{
+        padding-top:40px;
+    }
+
+    .recommandation{
+        padding-top:90px;
+    }
+
+    .contact p{
+        color:#3E2723;
+    }
+
+    .nomProfil{
+        color:#3E2723;
+    }
+
+    .marginLeft2{
+        margin-left: 20px;
+    }
+
+
+
+ 
+}
+
+
+
