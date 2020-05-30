@@ -240,8 +240,12 @@ header{
 
 @media (min-width: 659px) and (max-width: 859px){
 
-    body,.aside{
-        background-color:#B2EBF2;
+    .aside{
+        background-color:#feca07;
+    }
+
+    .contenu{
+        background-color: white;
     }
 
     .aside,.contenu{
@@ -254,13 +258,13 @@ header{
         display:none;
     }
 
-    .ma_description{
+    /*.ma_description{
         display:none;
     }
 
     .loisirs{
         display:none;
-    }
+    }*/
 
     .experiencePro, .formation,.recommandation{
         font-size:25px;
@@ -294,8 +298,12 @@ header{
 
 @media (max-width: 658px){
 
-    body,.aside{
-        background-color:#E0F7FA;
+   .aside{
+        background-color:#feca07;
+    }
+
+    .contenu{
+        background-color: white;
     }
 
     .aside,.contenu{
@@ -308,13 +316,13 @@ header{
         display:none;
     }
 
-    .ma_description{
+    /*.ma_description{
         display:none;
     }
 
     .loisirs{
         display:none;
-    }
+    }*/
 
     .experiencePro, .formation,.recommandation{
         font-size:25px;
@@ -360,8 +368,6 @@ header{
     .marginLeft2{
         margin-left: 20px;
     }
-
-
 
  
 }
