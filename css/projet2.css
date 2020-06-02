@@ -238,7 +238,7 @@ header{
 }
 
 
-@media (min-width: 659px) and (max-width: 859px){
+/*@media (min-width: 659px) and (max-width: 859px){
 
     .aside{
         background-color:#feca07;
@@ -256,7 +256,7 @@ header{
 
     header,.hr1{
         display:none;
-    }
+    }*/
 
     /*.ma_description{
         display:none;
@@ -266,7 +266,7 @@ header{
         display:none;
     }*/
 
-    .experiencePro, .formation,.recommandation{
+    /*.experiencePro, .formation,.recommandation{
         font-size:25px;
     }
 
@@ -294,9 +294,9 @@ header{
         padding-top:90px;
     }
 
-}
+}*/
 
-@media (max-width: 658px){
+@media (max-width: 859px){
 
    .aside{
         background-color:#feca07;
