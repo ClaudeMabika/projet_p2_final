@@ -238,7 +238,7 @@ header{
 }
 
 
-/*@media (min-width: 659px) and (max-width: 859px){
+@media (min-width: 704px) and (max-width: 859px){
 
     .aside{
         background-color:#feca07;
@@ -252,8 +252,6 @@ header{
         width:100%;
     }
 
-   
-
     header,.hr1{
         display:none;
     }*/
@@ -266,20 +264,20 @@ header{
         display:none;
     }*/
 
-    /*.experiencePro, .formation,.recommandation{
+    .experiencePro, .formation,.recommandation{
         font-size:25px;
     }
 
     .col1{
-        width:40%;
+        width:100%;
     }
 
     .col2{
-        width:60%;
+        width:100%;
     }
 
     .paddingLeft1{
-        padding-left:23px;
+        padding-left:30px;
     }
 
     .formation{
@@ -293,10 +291,132 @@ header{
     .recommandation{
         padding-top:90px;
     }
+    
+    .marginLeft2{
+        margin-left:25px;
+    }
+}
 
-}*/
+@media (min-width: 602px) and (max-width: 703px){
 
-@media (max-width: 859px){
+    .aside{
+        background-color:#feca07;
+    }
+
+    .contenu{
+        background-color: white;
+    }
+
+    .aside,.contenu{
+        width:100%;
+    }
+
+    header,.hr1{
+        display:none;
+    }*/
+
+    /*.ma_description{
+        display:none;
+    }
+
+    .loisirs{
+        display:none;
+    }*/
+
+    .experiencePro, .formation,.recommandation{
+        font-size:25px;
+    }
+
+    .col1{
+        width:100%;
+    }
+
+    .col2{
+        width:100%;
+    }
+
+    .paddingLeft1{
+        padding-left:27px;
+    }
+
+    .formation{
+        margin-top:20px;
+    }
+
+    .experiencePro{
+        padding-top:40px;
+    }
+
+    .recommandation{
+        padding-top:90px;
+    }
+    
+    .marginLeft2{
+        margin-left:25px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 601px){
+
+    .aside{
+        background-color:#feca07;
+    }
+
+    .contenu{
+        background-color: white;
+    }
+
+    .aside,.contenu{
+        width:100%;
+    }
+
+    header,.hr1{
+        display:none;
+    }*/
+
+    /*.ma_description{
+        display:none;
+    }
+
+    .loisirs{
+        display:none;
+    }*/
+
+    .experiencePro, .formation,.recommandation{
+        font-size:25px;
+    }
+
+    .col1{
+        width:100%;
+    }
+
+    .col2{
+        width:100%;
+    }
+
+    .paddingLeft1{
+        padding-left:25px;
+    }
+
+    .formation{
+        margin-top:20px;
+    }
+
+    .experiencePro{
+        padding-top:40px;
+    }
+
+    .recommandation{
+        padding-top:90px;
+    }
+    
+    .marginLeft2{
+        margin-left:25px;
+    }
+}
+
+
+@media (max-width: 500px){
 
    .aside{
         background-color:#feca07;
@@ -369,7 +489,6 @@ header{
         margin-left: 20px;
     }
 
- 
 }
 
 
