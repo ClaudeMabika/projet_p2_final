@@ -1,3 +1,7 @@
+body{
+    font-family: Trebuchet MS, Impact, Arial;
+}
+
 .gauche{
     float:left;
 }
@@ -183,7 +187,7 @@ header{
     }
 
     .aside{
-        width:40%;
+        width:100%;
     }
 
     .nomProfil h2{
@@ -191,186 +195,241 @@ header{
     }
 
     .contenu{
-        width:60%;
+        width:100%;
     }
 
     .paddingLeft1{
         padding-left:20px;
     }
-}
-
-@media (min-width:860px) and (max-width:948px){
-    header,.hr1{
-        display:none;
-    }
-
-    .aside{
-        width:35%;
-    }
-
-    .contenu{
-        width:65%;
-    }
-
-    .formation{
-        margin-top:30px;
-    }
-
-    .experiencePro, .formation,.recommandation{
-        font-size:25px;
-    }
 
     .col1,.col2{
-        font-size:15px;
-    }
-
-    .nomProfil h2{
-        font-size:20px;
-    }
-
-    .nomProfil h3{
-        font-size:15px;
-    }
-
-    .contact p,.ma_description p{
-        font-size:15px;
-    }
-}
-
-
-@media (max-width: 859px){
-
-    .aside{
-        background-color:#feca07;
-    }
-
-    .contenu{
-        background-color: white;
-    }
-
-    .aside,.contenu{
         width:100%;
-    }
-
-   
-
-    header,.hr1{
-        display:none;
-    }
-
-    /*.ma_description{
-        display:none;
-    }
-
-    .loisirs{
-        display:none;
-    }*/
-
-    .experiencePro, .formation,.recommandation{
-        font-size:25px;
     }
 
     .col1{
-        width:40%;
-    }
-
-    .col2{
-        width:60%;
+        margin-bottom:5px;
     }
 
     .paddingLeft1{
-        padding-left:23px;
-    }
-
-    .formation{
-        margin-top:20px;
-    }
-
-    .experiencePro{
-        padding-top:40px;
-    }
-
-    .recommandation{
-        padding-top:90px;
-    }
-
-}
-
-@media (max-width: 658px){
-
-   .aside{
-        background-color:#feca07;
-    }
-
-    .contenu{
-        background-color: white;
-    }
-
-    .aside,.contenu{
-        width:100%;
-    }
-
-   
-
-    header,.hr1{
-        display:none;
-    }
-
-    /*.ma_description{
-        display:none;
-    }
-
-    .loisirs{
-        display:none;
-    }*/
-
-    .experiencePro, .formation,.recommandation{
-        font-size:25px;
-        color:#3E2723;
-    }
-
-    .col1{
-        width:100%;
-        margin-bottom: 5px;
-        color:#3E2723;
-
-    }
-
-    .col2{
-        width:100%;
-        color:#3E2723;
-    }
-
-    .paddingLeft1{
-        padding-left:23px;
-    }
-
-    .formation{
-        margin-top:20px;
-    }
-
-    .experiencePro{
-        padding-top:40px;
-    }
-
-    .recommandation{
-        padding-top:90px;
-    }
-
-    .contact p{
-        color:#3E2723;
-    }
-
-    .nomProfil{
-        color:#3E2723;
+        padding-left:30px;
     }
 
     .marginLeft2{
-        margin-left: 20px;
+        margin-left:28px;
     }
 
- 
+    .formation{
+        margin-top:50px;
+    }
+
+    .experiencePro{
+        padding-top: 80px;
+    }
+
+    .recommandation{
+        padding-top:130px;
+    }
 }
 
+@media(min-width:848px) and (max-width: 948px){
+    header,.hr1{
+        display:none;
+    }
+
+    .aside{
+        width:100%;
+    }
+
+    .nomProfil h2{
+        font-size: 25px;
+    }
+
+    .contenu{
+        width:100%;
+    }
+
+    .paddingLeft1{
+        padding-left:20px;
+    }
+
+    .col1,.col2{
+        width:100%;
+    }
+
+    .col1{
+        margin-bottom:5px;
+    }
+
+    .paddingLeft1{
+        padding-left:30px;
+    }
+
+    .marginLeft2{
+        margin-left:28px;
+    }
+
+    .formation{
+        margin-top:50px;
+    }
+
+    .experiencePro{
+        padding-top: 80px;
+    }
+
+    .recommandation{
+        padding-top:130px;
+    }
+}
+
+@media(min-width:748px) and (max-width: 847px){
+    header,.hr1{
+        display:none;
+    }
+
+    .aside{
+        width:100%;
+    }
+
+    .nomProfil h2{
+        font-size: 25px;
+    }
+
+    .contenu{
+        width:100%;
+    }
+
+    .paddingLeft1{
+        padding-left:20px;
+    }
+
+    .col1,.col2{
+        width:100%;
+    }
+
+    .col1{
+        margin-bottom:5px;
+    }
+
+    .paddingLeft1{
+        padding-left:30px;
+    }
+
+    .marginLeft2{
+        margin-left:28px;
+    }
+
+    .formation{
+        margin-top:50px;
+    }
+
+    .experiencePro{
+        padding-top: 80px;
+    }
+
+    .recommandation{
+        padding-top:130px;
+    }
+}
+
+@media(min-width:648px) and (max-width: 747px){
+    header,.hr1{
+        display:none;
+    }
+
+    .aside{
+        width:100%;
+    }
+
+    .nomProfil h2{
+        font-size: 25px;
+    }
+
+    .contenu{
+        width:100%;
+    }
+
+    .paddingLeft1{
+        padding-left:5px;
+    }
+
+    .col1,.col2{
+        width:100%;
+    }
+
+    .col1{
+        margin-bottom:5px;
+    }
+
+    .paddingLeft1{
+        padding-left:30px;
+    }
+
+    .marginLeft2{
+        margin-left:28px;
+    }
+
+    .formation{
+        margin-top:50px;
+    }
+
+    .experiencePro{
+        padding-top: 80px;
+    }
+
+    .recommandation{
+        padding-top:130px;
+    }
+}
+
+@media (max-width: 647px){
+    header,.hr1{
+        display:none;
+    }
+
+    .aside{
+        width:100%;
+    }
+
+    .nomProfil h2{
+        font-size: 25px;
+    }
+
+    .contenu{
+        width:100%;
+    }
+
+    .paddingLeft1{
+        padding-left:23px;
+    }
+
+    .col1,.col2{
+        width:100%;
+    }
+
+    .col1{
+        margin-bottom:5px;
+    }
+
+
+    .marginLeft2{
+        margin-left:20px;
+    }
+
+    .formation{
+        margin-top:50px;
+    }
+
+    .experiencePro{
+        padding-top: 80px;
+    }
+
+    .recommandation{
+        padding-top:130px;
+    }
+
+    .size30{
+        font-size: 25px;
+    }
+}
 
 
