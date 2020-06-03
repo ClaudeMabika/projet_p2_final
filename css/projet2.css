@@ -272,9 +272,13 @@ header{
         margin-top:50px;
     }
 
+<<<<<<< HEAD
     .experiencePro{
         padding-top: 80px;
     }
+=======
+@media (min-width: 704px) and (max-width: 859px){
+>>>>>>> 0e09e711fef7a73fd1a754a9adaa672e6b3066b4
 
     .recommandation{
         padding-top:130px;
@@ -290,12 +294,80 @@ header{
         width:100%;
     }
 
+<<<<<<< HEAD
     .nomProfil h2{
         font-size: 25px;
     }
 
     .contenu{
         width:100%;
+=======
+    header,.hr1{
+        display:none;
+    }*/
+
+    /*.ma_description{
+        display:none;
+    }
+
+    .loisirs{
+        display:none;
+    }*/
+
+    .experiencePro, .formation,.recommandation{
+        font-size:25px;
+    }
+
+    .col1{
+        width:100%;
+    }
+
+    .col2{
+        width:100%;
+    }
+
+    .paddingLeft1{
+        padding-left:30px;
+    }
+
+    .formation{
+        margin-top:20px;
+    }
+
+    .experiencePro{
+        padding-top:40px;
+    }
+
+    .recommandation{
+        padding-top:90px;
+    }
+    
+    .marginLeft2{
+        margin-left:25px;
+    }
+}
+
+@media (min-width: 602px) and (max-width: 703px){
+
+    .aside{
+        background-color:#feca07;
+    }
+
+    .contenu{
+        background-color: white;
+    }
+
+    .aside,.contenu{
+        width:100%;
+    }
+
+    header,.hr1{
+        display:none;
+    }*/
+
+    /*.ma_description{
+        display:none;
+>>>>>>> 0e09e711fef7a73fd1a754a9adaa672e6b3066b4
     }
 
     .paddingLeft1{
@@ -307,6 +379,7 @@ header{
     }
 
     .col1{
+<<<<<<< HEAD
         margin-bottom:5px;
     }
 
@@ -316,6 +389,17 @@ header{
 
     .marginLeft2{
         margin-left:28px;
+=======
+        width:100%;
+    }
+
+    .col2{
+        width:100%;
+    }
+
+    .paddingLeft1{
+        padding-left:27px;
+>>>>>>> 0e09e711fef7a73fd1a754a9adaa672e6b3066b4
     }
 
     .formation{
@@ -329,6 +413,7 @@ header{
     .recommandation{
         padding-top:130px;
     }
+<<<<<<< HEAD
 }
 
 @media(min-width:648px) and (max-width: 747px){
@@ -339,6 +424,75 @@ header{
     .aside{
         width:100%;
     }
+=======
+    
+    .marginLeft2{
+        margin-left:25px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 601px){
+
+    .aside{
+        background-color:#feca07;
+    }
+
+    .contenu{
+        background-color: white;
+    }
+
+    .aside,.contenu{
+        width:100%;
+    }
+
+    header,.hr1{
+        display:none;
+    }*/
+
+    /*.ma_description{
+        display:none;
+    }
+
+    .loisirs{
+        display:none;
+    }*/
+
+    .experiencePro, .formation,.recommandation{
+        font-size:25px;
+    }
+
+    .col1{
+        width:100%;
+    }
+
+    .col2{
+        width:100%;
+    }
+
+    .paddingLeft1{
+        padding-left:25px;
+    }
+
+    .formation{
+        margin-top:20px;
+    }
+
+    .experiencePro{
+        padding-top:40px;
+    }
+
+    .recommandation{
+        padding-top:90px;
+    }
+    
+    .marginLeft2{
+        margin-left:25px;
+    }
+}
+
+
+@media (max-width: 500px){
+>>>>>>> 0e09e711fef7a73fd1a754a9adaa672e6b3066b4
 
     .nomProfil h2{
         font-size: 25px;
@@ -427,9 +581,12 @@ header{
         padding-top:130px;
     }
 
+<<<<<<< HEAD
     .size30{
         font-size: 25px;
     }
+=======
+>>>>>>> 0e09e711fef7a73fd1a754a9adaa672e6b3066b4
 }
 
 
